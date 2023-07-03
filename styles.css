@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/papel-de-parede-love-quadrinhos-preto-e-branco-mod-84-10m-papel-de-parede-decoracao.jpg);
+}
+
+.banner{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 25px;
+    padding: auto;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.banner img{
+    width: 15%;
+    border-radius: 20px;
+    margin-right: 60px;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.ancora{
+    display: flex;
+    flex-wrap:wrap ;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: x-large;
+}
+
+.postagens{
+    margin: 25px;
+    padding: 20px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 20px; 
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  
+.grid-item {
+    background-color: gray;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
+  }
+
+.posts{
+    padding: 5px;
+}
+
+.grid-item img{
+    border-radius: 15px;
+}
+
+#lobo img{
+    width: 80%;
+}
+
+#tatuagem img{
+    width: 60%;
+}
+
+.rodape{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 25px;
+    padding: auto;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+#autoria{
+    margin: 25px;
+    padding: 5px;
+}
+
+.center{
+    margin: 25px;
+    padding: 20px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 20px; 
+    font-family: sans-serif;
+}
+
+.center img{
+    border-radius: 20px;
+    margin: 20px;
+    width: 60%;
+}
+
+footer{
+    font-family: sans-serif;
+}
+
+.contatos{
+    margin: 25px;
+    padding: 20px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 20px; 
+    font-family: sans-serif;
+}
+
+.contatos img{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin: 15px;
+}
+
+#contatsimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 728px) {
+    .banner{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 70%;
+    }
+
+    .ancora{
+        display: flex;
+        margin: 10px;
+        font-size: 14px;
+        margin-left: 60px;
+    }
+
+    .banner img{
+        width: 30%;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+      }
+
+    .contatos img{
+        width: 50px;
+        height: 50px;
+    }
+ }
+  
